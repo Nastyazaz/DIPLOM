@@ -11,6 +11,7 @@ import static com.codeborne.selenide.Selenide.open;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class TourOrderTest {
+
     @BeforeAll
     static void setUpAll() {
         SelenideLogger.addListener("allure", new AllureSelenide());

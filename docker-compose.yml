@@ -26,5 +26,6 @@ services:
   node_app:
     build: ./gate-simulator
     image: node-app
+    command: npm start
     ports:
       - '9999:9999'
